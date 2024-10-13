@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type = "text" placeholder="Enter the City name" spellcheck="false">
+            <button><img src="images/search.png"></button>
+        </div>
+
+        <div class="weather">
+            <img src="images/cloudy_day.png" class = "weather-icon" alt="Sunny">
+            <h1 class="temp">42°c</h1>
+            <h2 class="city">Irving</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" class = "weather-icon-g2" alt="Humidity">
+                    <div>
+                        <p class="humidity">18%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/breeze.png" class = "weather-icon-g2" alt="Wind Speed">
+                    <div>
+                        <p class="wind">10 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
